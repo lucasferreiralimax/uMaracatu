@@ -1,6 +1,6 @@
-# UMaracatu
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+# uMaracatu
+That demonstrates integration of React and Vue components in Angular.
+This project showcases the versatility of Angular's architecture by enabling the coexistence and interaction of components from different frameworks. Whether you're exploring hybrid application development or seeking to leverage specific functionalities from React and Vue within an Angular environment, uMaracatu provides a practical example and a starting point for cross-framework integrations.
 
 ## Development server
 
@@ -22,6 +22,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Learn More
+### :performing_arts: Com quem você pode conversar sobre o projeto?
+#### Who can you talk to about the project?
+#### ¿Con quién puedes hablar sobre el proyecto?
+#### С кем вы можете поговорить о проекте?
+#### 誰がプロジェクトについて話すことができますか？
+#### À qui pouvez-vous parler du projet?
+#### Proje ile ilgili kiminle konuşabilirsin ?
+#### 你能谈谈这个项目吗？
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* :ghost: @lucasferreiralimax
+* :email: contato@criar.art
