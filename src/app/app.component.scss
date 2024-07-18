@@ -145,10 +145,35 @@ main {
   justify-content: center;
   align-items: center;
 
-  img {
+  img,
+  svg {
     transition: 0.3s all;
+  }
+  svg {
+    margin: 0.5em;
+  }
+
+  a {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+    @media (max-width: 640px) {
+      font-size: 1em;
+    }
+
     &:hover {
-      transform: scale(1.1);
+      svg {
+        transform: scale(1.5);
+      }
+      img {
+        transform: scale(1.1);
+      }
     }
   }
 }
