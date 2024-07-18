@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VueTestComponent } from './vue-test.component';
+import { VueComponent } from './vue.component';
 
-describe('VueTestComponent', () => {
-  let component: VueTestComponent;
-  let fixture: ComponentFixture<VueTestComponent>;
+describe('VueComponent', () => {
+  let component: VueComponent;
+  let fixture: ComponentFixture<VueComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VueTestComponent]
+      imports: [VueComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VueTestComponent);
+    fixture = TestBed.createComponent(VueComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

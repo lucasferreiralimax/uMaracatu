@@ -8,16 +8,17 @@ import {
   inject,
   Input,
 } from '@angular/core';
+
 import { createElement, ComponentProps } from 'react';
 import { createRoot, Root } from 'react-dom/client';
 import ReactTechsLogos from 'react-techs-logos';
 
 @Component({
-  selector: 'app-react-test',
+  selector: 'react-component',
   standalone: true,
   template: '',
 })
-export class ReactTestComponent implements AfterViewInit, OnDestroy, OnChanges {
+export class ReactComponent implements AfterViewInit, OnDestroy, OnChanges {
   private root: Root | null = null;
 
   @Input() props!: ComponentProps<any>;

@@ -8,15 +8,16 @@ import {
   inject,
   Input,
 } from '@angular/core';
+
 import { createApp, h, App } from 'vue';
 import VueTechsLogos from 'vue-techs-logos';
 
 @Component({
-  selector: 'app-vue-test',
+  selector: 'vue-component',
   standalone: true,
   template: '',
 })
-export class VueTestComponent implements AfterViewInit, OnDestroy, OnChanges {
+export class VueComponent implements AfterViewInit, OnDestroy, OnChanges {
   private app: App | null = null;
 
   @Input() props!: Record<string, any>;
