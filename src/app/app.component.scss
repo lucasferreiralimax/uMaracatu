@@ -118,6 +118,10 @@ main {
   flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: center;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -137,6 +141,31 @@ main {
 .logos {
   display: inline-flex;
   margin-top: 2rem;
+}
+
+.react,
+.vue {
+  padding: 1rem;
+}
+
+.react,
+.vue, .react h3, .vue h3 {
+  border: 2px solid;
+  border-radius: 10px;
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0px;
+  }
+}
+
+.react, .react h3 {
+  border-color: #00d8fe;
+}
+
+.vue, .vue h3 {
+  border-color: #40b883;
 }
 
 .footer {
