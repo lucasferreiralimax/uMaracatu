@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/browser",
+    "public": "dist/u-maracatu",
     "ignore": [
       "firebase.json",
       "**/.*",
