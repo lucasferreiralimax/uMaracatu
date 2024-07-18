@@ -2,25 +2,23 @@
 That demonstrates integration of React and Vue components in Angular.
 This project showcases the versatility of Angular's architecture by enabling the coexistence and interaction of components from different frameworks. Whether you're exploring hybrid application development or seeking to leverage specific functionalities from React and Vue within an Angular environment, uMaracatu provides a practical example and a starting point for cross-framework integrations.
 
+About Maracatu, is a vibrant cultural expression originating from the northeastern region of Brazil, particularly in the state of Pernambuco. It combines music, dance, and theatrical elements, often performed during carnival celebrations. Maracatu features elaborate costumes, rhythmic drumming, and choreographed movements that reflect Afro-Brazilian cultural influences. It's known for its energetic beats and colorful parades, embodying both religious and secular traditions.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm run start` or `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` or `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` or `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `npm run e2e` or `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Learn More
 ### :performing_arts: Com quem você pode conversar sobre o projeto?
