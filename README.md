@@ -21,10 +21,6 @@ Run `npm run build` or `ng build` to build the project. The build artifacts will
 
 Run `npm run test` or `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `npm run e2e` or `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
 ## Learn More
 ### :performing_arts: Com quem você pode conversar sobre o projeto?
 #### Who can you talk to about the project?
