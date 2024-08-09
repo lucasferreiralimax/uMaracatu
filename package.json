@@ -20,15 +20,15 @@
     "@angular/platform-browser": "^18.1.4",
     "@angular/platform-browser-dynamic": "^18.1.4",
     "@angular/router": "^18.1.4",
-    "@vue/runtime-dom": "^3.4.35",
+    "@vue/runtime-dom": "^3.4.37",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-techs-logos": "^0.1.15",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "vue": "^3.4.35",
+    "vue": "^3.4.37",
     "vue-techs-logos": "^0.1.18",
-    "zone.js": "~0.14.3"
+    "zone.js": "^0.14.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.1.4",
