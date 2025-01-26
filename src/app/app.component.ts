@@ -5,11 +5,10 @@ import { ReactComponent } from './components/react/react.component';
 import { VueComponent } from './components/vue/vue.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, ReactComponent, VueComponent, MatButtonModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [RouterOutlet, ReactComponent, VueComponent, MatButtonModule],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   myPropsReact = { list: ['react', 'TypeScript'] };
